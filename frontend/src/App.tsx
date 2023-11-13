@@ -1,7 +1,10 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
+import { add } from '@boilerplate/datasource'
 import './App.css'
+
+console.log(add(1,2))
 
 function App() {
   const [count, setCount] = useState(0)
