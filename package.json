@@ -1,0 +1,16 @@
+{
+  "name": "boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:web": "cd ./frontend && pnpm dev",
+    "start:server": "cd ./backend && pnpm start:debug",
+    "start:android": "cd ./app && pnpm run android",
+    "start:ios": "cd ./app && pnpm run ios"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
